@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "alinac", "alinac\alinac.csproj", "{C5337BDA-E7BC-4AD5-868C-007EDBF3365E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "alinac", "alinac\alinac.csproj", "{C5337BDA-E7BC-4AD5-868C-007EDBF3365E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A27D38C4-391C-40B4-AF9E-C0B07D5B39B1}"
+	ProjectSection(SolutionItems) = preProject
+		appspec.yml = appspec.yml
+		InstallApp.ps1 = InstallApp.ps1
+		RemoveApp.ps1 = RemoveApp.ps1
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
