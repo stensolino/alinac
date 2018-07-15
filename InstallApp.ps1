@@ -1,4 +1,4 @@
-sl C:\ExploringAspNetCore\SampleApp\src\SampleApp
+sl C:\ExploringAspNetCore
 
 # Restore the nuget references
 & "C:\Program Files\dotnet\dotnet.exe" restore
