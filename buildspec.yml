@@ -12,3 +12,6 @@ phases:
 artifacts:
   files:
     - alinac/build_output/**/*
+    - appspec.yml
+    - InstallApp.ps1
+    - RemoveApp.ps1
