@@ -28,9 +28,9 @@ LogWrite('========== START: Copy and move files ==========')
 #Remove-Item .\InstallApp.ps1 -Force
 #Remove-Item .\RemoveApp.ps1 -Force
 
-Copy-Item -Path .\release -Recurse -Destination .\ -Container
+Copy-Item -Path .\release\* -Destination .\ -Recurse -Force
 
-Remove-Item .\alinac -Force -Recurse
+Remove-Item .\release -Recurse -Force
 
 LogWrite('========== END: Copy and move files ==========')
 
