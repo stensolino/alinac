@@ -24,9 +24,9 @@ sl C:\ExploringAspNetCore
 
 LogWrite('========== START: Copy and move files ==========')
 
-Remove-Item .\fappspec.yml -Force
-Remove-Item .\InstallApp.ps1 -Force
-Remove-Item .\RemoveApp.ps1 -Force
+#Remove-Item .\fppspec.yml -Force
+#Remove-Item .\InstallApp.ps1 -Force
+#Remove-Item .\RemoveApp.ps1 -Force
 
 Copy-Item -Path .\alinac\release -Recurse -Destination .\ -Container
 
