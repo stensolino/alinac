@@ -11,5 +11,4 @@ phases:
       - dotnet publish -c release -o ./build_output alinac/alinac.csproj
 artifacts:
   files:
-    - CodeBuild-SampleCore/build_output/**/*
-    - scripts/**/*
+    - alinac/build_output/**/*
