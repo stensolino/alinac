@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A27D38C4-391C-40B4-AF9E-C0B07D5B39B1}"
 	ProjectSection(SolutionItems) = preProject
 		appspec.yml = appspec.yml
+		buildspec.yml = buildspec.yml
 		InstallApp.ps1 = InstallApp.ps1
 		RemoveApp.ps1 = RemoveApp.ps1
 	EndProjectSection
