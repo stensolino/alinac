@@ -8,10 +8,10 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - dotnet publish -c release -o ./build_output alinac/alinac.csproj
+      - dotnet publish -c release -o /release alinac/alinac.csproj
 artifacts:
   files:
-    - alinac/build_output/**/*
+    - alinac/release/**/*
     - appspec.yml
     - InstallApp.ps1
     - RemoveApp.ps1
